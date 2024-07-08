@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JURI OKAMURA's PORTFORIO</title>
+        <meta charset="utf-8">
+        <meta name="description" content="'理想をカタチに。'webデザイナー、岡村樹里のポートフォリオサイトです。">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-area">
+                <h1>JURI<br>OKAMURA</h1>
+                <!-- ハンバーガーメニュー -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul id="menu-sp">
+                <a href="about.html"><li>ABOUT</li></a>
+                <a href="#works" onclick="document.getElementById('menu-sp').style.display = 'none'"><li>WORKS</li></a>
+                <a href="mailto:juri.20000204@gmail.com"><li>CONTACT</li></a>
+            </ul>
+                <!-- PCナビゲーション -->
+            <nav>        
+                 <a href="about.html">ABOUT</a>
+                 <a href="#works">WORKS</a>
+                 <a href="mailto:juri.20000204@gmail.com">CONTACT</a>
+            </nav>     
+        </header>
+        <main>
+            <section class="mainvisual">
+                <div class="main">
+                    <img  class="gif" src="images/mainvisual.gif">
+                    <p>Welcome to my Portforio.</p>
+                </div>
+            </section>
+            <section>
+                <h2>ABOUT</h2>
+                <div class="about">
+                    <div class="about_img"><img src="images/IMG_5297.jpeg"></div>
+                    <div class="about_text">
+                        <h3>私のこと</h3>
+                        <p>2000年生まれ、京都府出身。龍谷大学卒業後、約2年間事務職に従事した後、webデザインに挑戦することを決意した。</p>
+                        <a href="about.html"><div class="button">more  →</div></a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 id="works">WORKS</h2>
+                <div class="works1">
+                    <div>
+                        <h3>制作物</h3>
+                    </div>
+                    <div class="works2">
+                        <a href="corporate.html"><div class="works_img"><img src="images/コーポレートサイト.png"></div></a>
+                        <div>
+                            <p>Website</p>
+                            <h4>コーポレートサイト(架空)</h4>
+                        </div>    
+                    </div>
+                    <div class="works2">
+                        <div class="works_img"><a href="barber.html"><img src="images/美容室サイト.png"></a></div>
+                        <div>
+                            <p>Website</p>
+                            <h4>美容室サイト(架空)</h4>
+                        </div>
+                    </div>
+                    <div class="works2">
+                        <div class="works_img"><a href="original.html"><img src="images/オリジナルサイト.png"></a></div>
+                        <div>
+                            <p>Website</p>
+                            <h4>オリジナルサイト</h4>
+                        </div>
+                    </div>
+                    <div class="works2">
+                        <div class="works_img"><a href="portforio.html"><img src="images/ポートフォリオ.png"></a></div>
+                        <div>
+                            <p>Website</p>
+                            <h4>ポートフォリオサイト</h4>
+                        </div>    
+                    </div>
+                    <div class="works2">
+                        <div class="works_img"><a href="baner.html"><img src="images/baner.png"></a></div>
+                        <div>
+                            <p>Design</p>
+                            <h4>Webデザインスクールのバナー(架空)</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h1 class="fin">JURI OKAMURA's PORTFORIO</h1>
+            <p class="copyright">&copy; 2024 JURI OKAMURA. All right reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
